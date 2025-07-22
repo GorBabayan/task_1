@@ -30,6 +30,7 @@ function foo(tokenized) {
             while (stack.length && isOp(stack[stack.length - 1]) && getValue(stack[stack.length - 1]) >= getValue(token)) {
                 result.push(stack.pop());
             }
+            stack.push(token);
         }
     }
 
