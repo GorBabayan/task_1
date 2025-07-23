@@ -26,6 +26,7 @@ function infixToPostfix(tokenized) {
         result.push(stack.pop());
     }
 
+    console.log(result);
     return result;
 }
 
