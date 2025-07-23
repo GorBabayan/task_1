@@ -3,4 +3,8 @@ function isValidInput(input) {
     return valid.test(input.trim());
 }
 
+updated-task
+export default isValidInput;
+
 module.exports = { isValidInput };
+main

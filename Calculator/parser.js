@@ -1,4 +1,8 @@
+updated-task
+import { getValue, isOp } from './helpers.js';
+
 const { getValue, isOp } = require('./helpers');
+main
 
 function infixToPostfix(tokenized) {
     let result = [];
@@ -29,4 +33,8 @@ function infixToPostfix(tokenized) {
     return result;
 }
 
+updated-task
+export default infixToPostfix;
+
 module.exports = { infixToPostfix };
+main

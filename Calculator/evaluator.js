@@ -43,4 +43,8 @@ function mathExpression(tokenized) {
    return stack[0];
 }
 
+updated-task
+export default mathExpression;
+
 module.exports = { mathExpression };
+main

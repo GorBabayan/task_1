@@ -5,4 +5,8 @@ function tokenizer(input) {
     return tokens;
 }
 
+updated-task
+export default tokenizer;
+
 module.exports = { tokenizer };
+main
