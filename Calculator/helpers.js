@@ -8,4 +8,8 @@ function isOp(op) {
     return ['+', '-', '*', '/'].includes(op);
 }
 
+updated-task
 export { getValue, isOp };
+
+module.exports = { getValue, isOp };
+main
